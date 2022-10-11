@@ -1,8 +1,7 @@
 import React from "react";
 import "./Main.css";
 
-const Main = (props) => {
-  const { id, title, img, desc } = props;
+const Main = ({ id, title, img, desc }) => {
   return (
     <div className="main">
       <div className="container">

@@ -11,6 +11,7 @@ function App() {
       {data.map((item) => (
         <Main {...item} />
       ))}
+      {/* <Main data={data} /> */}
       <Footer />
     </>
   );
